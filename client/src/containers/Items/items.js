@@ -6,7 +6,7 @@ import './styles.css';
 
 const Items = ({ data }) => {
   return (
-    <div>
+    <div className="allItems">
       <ItemCardList data={data} />
     </div>
   );

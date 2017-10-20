@@ -20,9 +20,8 @@ const ProfileCard = ({ data, borrowData }) => {
     <div>
       <Card
         style={{
-          width: '85%',
-          height: '50%',
-          padding: '2em',
+          width: '100%',
+          marginBottom: '20px',
           display: 'flex',
           justifyContent: 'right'
         }}

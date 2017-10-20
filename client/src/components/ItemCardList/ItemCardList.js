@@ -6,8 +6,10 @@ import ItemCard from '../ItemCard';
 
 const ItemCardList = ({ data }) => {
   return (
-    <Masonry>
-      <ItemCard data={data} />
+    <Masonry className="itemCardList">
+      {data.map(listValue => {
+        return <ItemCard key={data.id} listValue={listValue} />;
+      })}
     </Masonry>
   );
 };
